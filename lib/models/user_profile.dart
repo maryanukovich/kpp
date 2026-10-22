@@ -1,0 +1,7 @@
+/// Профіль користувача (демонстраційні дані, без бекенду).
+class UserProfile {
+  const UserProfile({required this.name, required this.email});
+
+  final String name;
+  final String email;
+}
